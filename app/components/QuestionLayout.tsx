@@ -25,6 +25,7 @@ const [selectedButton,setSelectedButton]=useState<number | null>(null)
                     return <button
                         className={`
                         text
+                        text-black
                                 w-full
                                 h-auto
                                 p-[10px] 
